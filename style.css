@@ -1,5 +1,6 @@
 body {
     background-color: black;
+    user-select: none;
 }
 
 .menu-border {
@@ -180,6 +181,8 @@ body {
     height:620px;
     display: block;
     margin: 0 auto;
+    user-select: none;
+    pointer-events: none;
 }
 
 .wrw {
