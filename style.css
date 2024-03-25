@@ -1,217 +1,87 @@
-body {
-    background-color: black;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Council of Literature</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/" href="Images/">
+</head>
+<body><br><br>
+    <div class="upper-menu">
+        <div class="menu-box">
+             <div class="menu-main-border">
+                <div class="menu-border">
+                    <div class="vertical-line-1"></div>
+                    <hr class="horizontal-line">
+                    <div class="vertical-line-2"></div>
+                    <div class="vertical-line-3"></div>
+                        <a target="_blank" class="projectlink" href="https://www.google.com">Projects</a>
+                        <a target="_blank" class="aboutlink" href="https://www.youtube.com">About</a>
+                        <a target="_blank" class="teamlink" href="https://www.facebook.com">Team</a>
+                        <a target="_blank" class="contactlink" href="https://www.instagram.com">Contact</a>
+                        <a target="_blank" class="serviceslink" href="https://tiktok.com"><span class="flipped-pencil">&#9998;</span>Services</a>
+                        <a target="_blank" class="getintouchlink" href="https://en.wikipedia.org/wiki/Wiki">Get in touch</a>
+                        <div class="ham-menu-container">
+                            <a target="_blank" href="https://www.telegram.com">
+                                <span class="ham-menu"></span>
+                                <span class="ham-menu"></span>
+                                <span class="ham-menu"></span>
+                            </a>
+                        </div>
+                </div>
+             </div>
+        </div>  
+    </div>
 
-.menu-border {
-    margin: 0 auto;
-    border: 2px solid #464646;
-    border-radius: 25px;
-    padding-top: 70px;
-    padding-bottom: 70px;
-    width: 1187px;
-    position: relative;
-}
+    <div class="container">
+        <div class="main-topic">
+            <h1 class="topic-1" style="font-size: 118px; margin-bottom: 0;">Council of Literature</h1>
+            <h1 class="topic-2" style="font-size: 65px; margin-bottom: 0;">A Place to Share Your Writings</h1>
+        </div><br><br><br><br><br><br><br><br>
+        <div class="main-bg">
+            <img class="main-bg-pic" src="Images/mainpic.PNG">
+        </div><br><br><br><br><br><br><br><br><br><br>
+        <div class="wrw">
+            <span>Welcome to our <span style="color: orange;">vibrant</span> online community, where words ignite imaginations and </span><br> 
+            <span>stories come alive. Whether you're a seasoned writer or new to the craft, our</span><br> 
+            <span>platform provides a welcoming space to share your <span style="color: #038efffd;">literary</span> creations and connect</span><br>
+            <span>with fellow wordsmiths.</span><br><br>
 
-.vertical-line-1 {
-    display: inline;
-    position: absolute;
-    bottom: 0px;
-    height: 140.5px;
-    left: 324px;
-    width: 2px;
-    background-color: #464646;
-}
+            <span>Dive into a world of diverse <span style="color: tomato;">voices</span>, explore captivating <span style="color: hsl(120, 97%, 44%);">narratives</span>, and join us in</span><br>
+            <span>celebrating the beauty of storytelling. Welcome to our sanctuart for words.</span>
+        </div>
+              <br><br><br><br><br><br><br><br><br><br><br>
+        <div class="pursuits">
+             <span class="name"><b>↳</b> Our pursuits</span><br><br><br>
+                <div class="contents">
 
-.vertical-line-2 {
-    display: inline;
-    position: absolute;
-    top: 0;
-    height: 70px;
-    left: 955px;
-    width: 2px;
-    background-color: #464646;
-}
+                    <a style="margin-bottom: -8px; text-decoration: none; color: white;" href="https://google.com">
+                       <h2><img class="cimg1" style="float: left; display:inline; position: relative;" src="Images/sean-oulashin-KMn4VEeEPR8-unsplash.jpg"><h2 style="display:inline; position: relative; bottom: -1.5px; left: 45px;">Articles</h2></h2><p style="color: #b8b8b8; display:inline; position: relative; bottom: -1.5px; left: 940px; font-size: 40px;">+</p><br><br>
+                       <hr style="margin-bottom: 43px; position: relative; height: 2px; background-color: #464646; border: none; width: 1268px; left: -280px;">
+                    </a>
 
-.vertical-line-3 {
-    display: inline;
-    position: absolute;
-    bottom: 0;
-    height: 70px;
-    left: 830px;
-    width: 2px;
-    background-color: #464646;
-}
+                    <a style="margin-bottom: -8px; text-decoration: none; color: white;" href="https://google.com">
+                        <h2><img class="cimg1" style="float: left; display:inline; position: relative;" src="Images/siyam-ensari-f3XYtsxmUUM-unsplash.jpg"><h2 style="display:inline; position: relative; bottom: -1.5px; left: 45px;">Letters</h2></h2><p style="color: #b8b8b8; display:inline; position: relative; bottom: -1.5px; left: 953px; font-size: 40px;">+</p><br><br>
+                        <hr style="margin-bottom: 43px; position: relative; height: 2px; background-color: #464646; border: none; width: 1268px; left: -280px;">
+                     </a>
 
-.horizontal-line {
-    display: inline;
-    position: absolute;
-    bottom: 60px;
-    left: 325px;
-    width: 863px;
-    height: 2px;
-    background-color: #464646;
-    border: none;
-}
+                     <a style="margin-bottom: -8px; text-decoration: none; color: white;" href="https://google.com">
+                        <h2><img class="cimg1" style="float: left; display:inline; position: relative;" src="Images/sude-soyluturk-qCYrA9qg-_4-unsplash.jpg"><h2 style="display:inline; position: relative; bottom: -1.5px; left: 45px;">Stories</h2></h2><p style="color: #b8b8b8; display:inline; position: relative; bottom: -1.5px; left: 951.5px; font-size: 40px;">+</p><br><br>
+                        <hr style="margin-bottom: 43px; position: relative; height: 2px; background-color: #464646; border: none; width: 1268px; left: -280px;">
+                     </a>
 
-.projectlink {
-    font-family: sans-serif;
-    color: #b8b8b8;
-    text-decoration: none;
-    display: inline;
-    position: absolute;
-    top: 28px;
-    left: 532px;
-}
+                     <a style="margin-bottom: -8px; text-decoration: none; color: white;" href="https://google.com">
+                        <h2><img class="cimg1" style="float: left; display:inline; position: relative;" src="Images/cam-bradford-L_4ANhj5PZc-unsplash.jpg"><h2 style="display:inline; position: relative; bottom: -1.5px; left: 45px;">Exam Writings</h2></h2><p style="color: #b8b8b8; display:inline; position: relative; bottom: -1.5px; left: 820px; font-size: 40px;">+</p><br><br>
+                        <hr style="margin-bottom: 43px; position: relative; height: 2px; background-color: #464646; border: none; width: 1268px; left: -280px;">
+                     </a>
 
-.projectlink:hover {
-    border-bottom: 2px solid #b8b8b8;
-}
-
-.aboutlink {
-    font-family: sans-serif;
-    color: #b8b8b8;
-    text-decoration: none;
-    display: inline;
-    position: absolute;
-    top: 28px;
-    left: 631px;
-}
-
-.aboutlink:hover {
-    border-bottom: 2px solid #b8b8b8;
-}
-
-.teamlink {
-    font-family: sans-serif;
-    color: #b8b8b8;
-    text-decoration: none;
-    display: inline;
-    position: absolute;
-    top: 28px;
-    left: 725px;
-}
-
-.teamlink:hover {
-    border-bottom: 2px solid #b8b8b8;
-}
-
-.contactlink {
-    font-family: sans-serif;
-    color: #b8b8b8;
-    text-decoration: none;
-    display: inline;
-    position: absolute;
-    top: 28px;
-    left: 816px;
-}
-
-.contactlink:hover {
-    border-bottom: 2px solid #b8b8b8;
-}
-
-.ham-menu-container {
-    color: #b8b8b8;
-    text-decoration: none;
-    position: absolute;
-    display: inline-block;
-    top: 28px;
-    right: 77.7px;
-}
-
-.ham-menu {
-    display: block;
-    width: 74px;
-    height: 1px;
-    background-color: #b8b8b8;
-    margin-bottom: 6px;
-}
-
-.ham-menu-container:hover .ham-menu {
-    height: 1.5px;
-}
-
-.flipped-pencil {
-    transform: scaleX(-1);
-    text-decoration: none;
-    font-family: sans-serif;
-    color: #b8b8b8;
-    display: inline;
-    position: absolute;
-    bottom: 0px;
-    left: -20px;
-}
-
-.serviceslink {
-    font-family: sans-serif;
-    color: #b8b8b8;
-    text-decoration: none;
-    display: inline;
-    position: absolute;
-    bottom: 25px;
-    left: 556px;
-}
-
-.serviceslink:hover {
-    border-bottom: 2px solid #b8b8b8;
-}
-
-.getintouchlink {
-    font-family: sans-serif;
-    color: #b8b8b8;
-    text-decoration: none;
-    display: inline;
-    position: absolute;
-    bottom: 25px;
-    left: 967.4px;
-}
-
-.getintouchlink:hover {
-    border-bottom: 2px solid #b8b8b8;
-}
-
-.main-topic {
-    font-family: sans-serif;
-    color: white;
-    text-align: center;
-}
-
-.main-bg-pic {
-    width: 1090px;
-    height:620px;
-    display: block;
-    margin: 0 auto;
-}
-
-.wrw {
-    display: block;
-    position: relative;
-    color: white;
-    font-family: sans-serif;
-    font-size: 35px;
-    text-align: left;
-    left: 300px;
-    font-style: bold;
-}
-
-.pursuits {
-    position: relative;
-    color: white;
-    font-family: sans-serif;
-    font-size: 25px;
-    text-align: left;
-    left: 300px;
-}
-
-.cimg1 {
-    position: relative;
-    display: inline;
-    width: 160px;
-    height: 42px;
-    border: 0;
-    border-radius: 30px;
-}
-
-.contents {
-    position: relative;
-    left:10px;
-}
+                     <a style="margin-bottom: -8px; text-decoration: none; color: white;" href="https://google.com">
+                        <h2><img class="cimg1" style="float: left; display:inline; position: relative;" src="Images/aleksandr-popov-5tsvxCrFi_I-unsplash.jpg"><h2 style="display:inline; position: relative; bottom: -1.5px; left: 45px;">Daily Words</h2></h2><p style="color: #b8b8b8; display:inline; position: relative; bottom: -1.5px; left: 864.5px; font-size: 40px;">+</p><br><br>
+                        <hr style="margin-bottom: 43px; position: relative; height: 2px; background-color: #464646; border: none; width: 1268px; left: -280px;">
+                     </a>
+                     
+                </div>
+        </div>
+    </div>
+</body>
