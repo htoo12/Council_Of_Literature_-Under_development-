@@ -126,6 +126,10 @@ body {
     margin-bottom: 6px;
 }
 
+.ham-menu-container:hover .ham-menu {
+    height: 1.5px;
+}
+
 .flipped-pencil {
     transform: scaleX(-1);
     text-decoration: none;
@@ -169,7 +173,6 @@ body {
     font-family: sans-serif;
     color: white;
     text-align: center;
-    margin-bottom: 0;
 }
 
 .main-bg-pic {
