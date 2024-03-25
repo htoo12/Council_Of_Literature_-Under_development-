@@ -181,3 +181,37 @@ body {
     display: block;
     margin: 0 auto;
 }
+
+.wrw {
+    display: block;
+    position: relative;
+    color: white;
+    font-family: sans-serif;
+    font-size: 35px;
+    text-align: left;
+    left: 300px;
+    font-style: bold;
+}
+
+.pursuits {
+    position: relative;
+    color: white;
+    font-family: sans-serif;
+    font-size: 25px;
+    text-align: left;
+    left: 300px;
+}
+
+.cimg1 {
+    position: relative;
+    display: inline;
+    width: 160px;
+    height: 42px;
+    border: 0;
+    border-radius: 30px;
+}
+
+.contents {
+    position: relative;
+    left:10px;
+}
