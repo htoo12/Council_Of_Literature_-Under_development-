@@ -205,6 +205,151 @@ body {
     left: 300px;
 }
 
+.recentworkandvaw {
+    position: relative;
+    color: white;
+    font-family: sans-serif;
+    font-size: 25px;
+    text-align: left;
+    left: 300px;
+}
+
+.rw-contents {
+    display: inline;
+    position: relative;
+    left:10px;
+
+}
+
+.rwc1, .rwc2, .rwc3, .rwc4 {
+    text-decoration:none;
+}
+
+.rwc1header {
+    position: relative;
+    bottom: 17px;
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+    font-size: 25px;
+}
+
+.rwc1b {
+    display: inline;
+    overflow: none;
+    position: absolute;
+    top: 2px;
+    left: 2;
+    border: 2px solid #888888;
+    border-radius: 15px;
+    width: 602px;
+    height: 590px;
+    overflow: hidden;
+}
+
+.rwc1p{
+    max-width: 100%;
+    height: auto; 
+    border: 0.1px solid transparent;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+}
+
+.rwc2header {
+    position: relative;
+    bottom: 17px;
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+    font-size: 25px;
+}
+
+.rwc2b {
+    display: inline;
+    overflow: none;
+    position: absolute;
+    top: 2px;
+    left: 660px;
+    border: 2px solid #888888;
+    border-radius: 15px;
+    width: 602px;
+    height: 590px;
+    overflow: hidden;
+}
+
+.rwc2p{
+    max-width: 100%;
+    height: auto; 
+    border: 0.1px solid transparent;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+}
+
+.rwc3header {
+    position: relative;
+    bottom: 17px;
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+    font-size: 25px;
+}
+
+.rwc3b {
+    display: inline;
+    overflow: none;
+    position: absolute;
+    top: 648px;
+    left: 0px;
+    border: 2px solid #888888;
+    border-radius: 15px;
+    width: 602px;
+    height: 590px;
+    overflow: hidden;
+}
+
+.rwc3p{
+    max-width: 100%;
+    height: auto; 
+    border: 0.1px solid transparent;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+}
+
+.rwc4header {
+    position: relative;
+    bottom: 17px;
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+    font-size: 25px;
+}
+
+.rwc4b {
+    display: inline;
+    overflow: none;
+    position: absolute;
+    top: 648px;
+    left: 660px;
+    border: 2px solid #888888;
+    border-radius: 15px;
+    width: 602px;
+    height: 590px;
+    overflow: hidden;
+}
+
+.rwc4p{
+    max-width: 100%;
+    height: auto; 
+    border: 0.1px solid transparent;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+}
+
+.vaw {
+    text-align: center;
+    color: white;
+}
+
 .cimg {
     position: relative;
     display: inline;
@@ -218,7 +363,7 @@ body {
     border: 3px dashed white;
 }
 
-.contents {
+.p-contents {
     position: relative;
     left:10px;
 }
@@ -262,3 +407,50 @@ body {
 .PB5:hover {
     color: gray;
 }
+
+.rwc1b:hover {
+    border: 2px solid rgb(255, 255, 255);
+    transition: 0.8s;
+}
+
+.rwc1b:hover .rwc1header {
+    font-size: 30px;
+    transition: 0.2s;
+    bottom: 28px;
+}
+
+.rwc2b:hover {
+    border: 2px solid rgb(255, 255, 255);
+    transition: 0.8s;
+}
+
+.rwc2b:hover .rwc2header {
+    font-size: 27px;
+    transition: 0.2s;
+    bottom: 18px;
+}
+
+
+.rwc3b:hover {
+    border: 2px solid rgb(255, 255, 255);
+    transition: 0.8s;
+}
+
+.rwc3b:hover .rwc3header {
+    font-size: 27px;
+    transition: 0.2s;
+    bottom: 18px;
+}
+
+
+.rwc4b:hover {
+    border: 2px solid rgb(255, 255, 255);
+    transition: 0.8s;
+}
+
+.rwc4b:hover .rwc4header {
+    font-size: 30px;
+    transition: 0.2s;
+    bottom: 28px;
+}
+
