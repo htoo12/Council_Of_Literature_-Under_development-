@@ -350,13 +350,74 @@ body {
     color: white;
 }
 
+.pc-1b {
+    border: 0;
+    width: 1268px;
+    height: 100px;
+}
+
+.pc-2b {
+    border: 0;
+    width: 1268px;
+    height: 100px;
+}
+
+.pc-3b {
+    border: 0;
+    width: 1268px;
+    height: 100px;
+}
+
+.pc-4b {
+    border: 0;
+    width: 1268px;
+    height: 100px;
+}
+
+.pc-5b {
+    border: 0;
+    width: 1268px;
+    height: 100px;
+}
+
+
 .cimg {
     position: relative;
     display: inline;
-    width: 160px;
-    height: 42px;
+    width: 170px;
+    height: 50px;
     border: 0;
     border-radius: 30px;
+    left: 10px;
+    top: 25px;
+}
+
+.pch {
+    display: inline-block;
+    position: relative;
+    font-family: sans-serif;
+    font-size: 40px;
+    left: 250px;
+    top: -10px;
+}
+
+.pcAr {
+    display: inline-block;
+    position: relative;
+    font-family: sans-serif;
+    font-size: 40px;
+    left: 1090px;
+    top: -10px;
+}
+
+.pchr {
+    position: absolute;
+    width: 1275px;
+    left: 0;
+}
+
+.pch:hover {
+    color:gray;
 }
 
 .cimg:hover {
@@ -366,46 +427,6 @@ body {
 .p-contents {
     position: relative;
     left:10px;
-}
-
-.cA:hover{   
-    color: gray;
-}
-
-.cL:hover{   
-    color: gray;
-}
-
-.cS:hover{    
-    color: gray;
-}
-
-.cEW:hover{   
-    color: gray;
-}
-
-.cDW:hover{    
-    color: gray;
-}
-
-.PB1:hover {
-    color: gray;
-}
-
-.PB2:hover {
-    color: gray;
-}
-
-.PB3:hover {
-    color: gray;
-}
-
-.PB4:hover {
-    color: gray;
-}
-
-.PB5:hover {
-    color: gray;
 }
 
 .rwc1b:hover {
