@@ -425,8 +425,10 @@ body {
     position: relative;
     font-family: sans-serif;
     font-size: 40px;
-    left: 1090px;
-    top: -10px;
+    left: 1225px;
+    top: -123px;
+    text-decoration: none;
+    color: white;
 }
 
 .pchr {
